@@ -1,0 +1,139 @@
+/* Mengatur tampilan .jumbotron */
+.jumbotron {
+  background-color: #656879; /* Warna latar belakang */
+  padding-top: 6rem; /* Padding atas */
+  margin-bottom: -100px; /* Margin bawah */
+}
+
+/* Mengatur tampilan .jumbotron dan h1 saat dihover */
+.jumbotron,
+h1:hover {
+  color: #ffffff; /* Warna teks */
+  transition: color 0.3s ease; /* Transisi perubahan warna */
+}
+
+/* Mengatur tampilan path di dalam tag svg */
+svg path {
+  stroke: none; /* Menghilangkan garis tepi */
+}
+
+/* Mengatur tampilan elemen nav */
+nav {
+  background-color: #000000; /* Warna latar belakang */
+}
+
+/* Mengatur tampilan body dan h2 */
+body,
+h2 {
+  margin: 0; /* Margin */
+  padding: 0; /* Padding */
+  color: white; /* Warna teks */
+}
+
+/* Mengatur tampilan h1 dan h3 di dalam body */
+body h1,
+h3 {
+  color: #000000; /* Warna teks */
+}
+
+/* Mengatur tampilan body */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Jenis font */
+  font-size: 16px; /* Ukuran font */
+}
+
+/* Mengatur tampilan elemen dengan id 'home' */
+#home {
+  margin-bottom: 0; /* Margin bawah */
+}
+
+/* Mengatur tampilan elemen dengan id 'Education' */
+#Education {
+  background-color: #656879; /* Warna latar belakang */
+  margin-top: -100px; /* Margin atas */
+  color: #fff; /* Warna teks */
+}
+
+/* Mengatur tampilan h1 di dalam elemen dengan id 'Education' */
+#Education h1 {
+  text-align: center; /* Posisi teks menjadi tengah */
+}
+
+/* Mengatur tampilan dengan kelas 'text-center' */
+.text-center {
+  margin-bottom: -100px; /* Margin bawah */
+}
+
+/* Mengatur tampilan elemen dengan kelas 'card-header' */
+.card-header {
+  background-color: #4749e7; /* Warna latar belakang */
+  color: #fff; /* Warna teks */
+}
+
+/* Mengatur tampilan elemen dengan kelas 'card' */
+.card {
+  margin-bottom: 1px; /* Margin bawah */
+  color: #000000; /* Warna teks */
+}
+
+/* Mengatur tampilan elemen dengan id 'Favorite' */
+#Favorite {
+  background-color: #1d444e; /* Warna latar belakang */
+  color: #fff; /* Warna teks */
+  padding: 50px 0; /* Padding atas dan bawah */
+}
+
+/* Mengatur tampilan h2 di dalam elemen dengan id 'Favorite' */
+#Favorite h2 {
+  margin-bottom: 20px; /* Margin bawah */
+}
+
+/* Mengatur tampilan paragraf di dalam elemen dengan id 'Favorite' */
+#Favorite p {
+  margin-bottom: 30px; /* Margin bawah */
+}
+
+/* Mengatur tampilan elemen dengan id 'contact' */
+#contact {
+  color: #030303; /* Warna teks */
+  padding: 50px 0; /* Padding atas dan bawah */
+  margin-bottom: -50px; /* Margin bawah */
+  margin-top: -50px; /* Margin atas */
+}
+
+/* Mengatur tampilan elemen dengan kelas 'social-icons' */
+.social-icons {
+  display: flex; /* Tampilkan dalam flexbox */
+  justify-content: center; /* Posisi menjadi tengah */
+  margin-top: 20px; /* Margin atas */
+  margin-right: 10px; /* Margin kanan */
+}
+
+/* Mengatur tampilan anchor di dalam elemen dengan kelas 'social-icons' */
+.social-icons a {
+  margin: 0 20px; /* Margin kiri dan kanan */
+  font-size: 40px; /* Ukuran font */
+  margin-right: 10px; /* Margin kanan */
+}
+
+/* Mengatur tampilan footer */
+footer {
+  background-color: #000000; /* Warna latar belakang */
+  color: white; /* Warna teks */
+  padding-bottom: 1rem; /* Padding bawah */
+}
+
+/* Media query untuk perangkat dengan lebar maksimum 768px */
+@media (max-width: 768px) {
+  /* Mengatur tampilan .jumbotron pada media query */
+  .jumbotron {
+    padding: 50px 0; /* Padding atas dan bawah */
+  }
+
+  /* Mengatur tampilan elemen dengan id 'Education', 'Favorite', dan 'contact' pada media query */
+  #Education,
+  #Favorite,
+  #contact {
+    padding: 30px 0; /* Padding atas dan bawah */
+  }
+}

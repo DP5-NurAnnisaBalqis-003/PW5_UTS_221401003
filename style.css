@@ -1,0 +1,151 @@
+/* Mengatur tampilan .jumbotron */
+.jumbotron {
+  background-color: #c24545; /* Warna latar belakang */
+  padding-top: 6rem; /* Padding atas */
+  color: white; /* Warna teks */
+}
+
+/* Mengatur tampilan elemen nav */
+nav {
+  background-color: #020222; /* Warna latar belakang */
+}
+
+/* Mengatur tampilan elemen dengan id 'about' */
+#about {
+  padding-top: 4rem; /* Padding atas */
+  background-color: #f18969; /* Warna latar belakang */
+  margin-top: -50px; /* Margin atas */
+  color: white; /* Warna teks */
+}
+
+/* Mengatur tampilan paragraf di dalam elemen dengan id 'about' */
+#about p {
+  color: black; /* Warna teks */
+}
+
+/* Mengatur tampilan elemen dengan id 'projects' */
+#projects {
+  background-color: #23415f; /* Warna latar belakang */
+  border: none; /* Tanpa border */
+  color: rgb(0, 0, 0); /* Warna teks */
+}
+
+/* Mengatur tampilan h2 di dalam elemen dengan id 'projects' */
+#projects h2 {
+  color: white; /* Warna teks */
+}
+
+/* Mengatur tampilan elemen dengan id 'experiences' */
+#experiences {
+  background-color: #ffffff; /* Warna latar belakang */
+}
+
+/* Mengatur tampilan elemen dengan id 'contact' */
+#contact {
+  margin-bottom: -50px; /* Margin bawah */
+  background-color: #23415f; /* Warna latar belakang */
+}
+
+/* Mengatur tampilan elemen section */
+section {
+  padding-top: 5rem; /* Padding atas */
+}
+
+/* Transisi pada gambar di dalam elemen dengan kelas 'card-img-top' */
+.card-img-top {
+  transition: transform 0.3s ease-in-out; /* Transisi */
+}
+
+/* Mengatur tampilan elemen dengan kelas 'card' */
+.card {
+  position: relative; /* Posisi */
+  overflow: hidden; /* Overflow */
+}
+
+/* Transisi pada gambar dan teks di dalam elemen dengan kelas 'card' saat hover */
+.card-img-top,
+.card-text {
+  transition: transform 0.3s ease-in-out; /* Transisi */
+}
+
+/* Efek pada gambar saat elemen dengan kelas 'card' dihover */
+.card:hover .card-img-top {
+  transform: scale(1.1); /* Transisi perbesaran */
+}
+
+/* Efek pada teks saat elemen dengan kelas 'card' dihover */
+.card:hover .card-text {
+  transform: scaleY(1.1); /* Transisi perbesaran */
+}
+
+/* Mengatur tampilan gambar pada elemen dengan kelas 'carousel-item' */
+.carousel-item img {
+  max-height: 1000px; /* Tinggi maksimum */
+  max-width: 1000px; /* Lebar maksimum */
+  width: 100%; /* Lebar */
+  object-fit: cover; /* Objek fit */
+  margin: 0 auto; /* Margin secara horizontal */
+}
+
+/* Mengatur tampilan caption pada elemen dengan kelas 'carousel-caption' */
+.carousel-caption {
+  max-width: 1000px; /* Lebar maksimum */
+  color: #ffffff; /* Warna teks */
+  margin: 0 auto; /* Margin secara horizontal */
+  bottom: 0; /* Posisi bawah */
+}
+
+/* Mengatur tampilan teks pada elemen dengan kelas 'carousel-caption' */
+.carousel-caption p {
+  text-align: justify; /* Posisi teks menjadi rata kiri dan kanan */
+}
+
+/* Mengatur tampilan tombol pada elemen dengan kelas 'carousel-caption' */
+.carousel-caption .btn {
+  background-color: #5b9dd3; /* Warna latar belakang tombol */
+  width: auto; /* Lebar otomatis */
+  position: absolute; /* Posisi absolut */
+  bottom: 50%; /* Posisi bawah setengah */
+  left: 50%; /* Posisi tengah horizontal */
+  transform: translate(-50%, 50%); /* Posisi tengah secara vertikal dan horizontal */
+}
+
+/* Mengatur tampilan kontrol carousel */
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #5b9dd3; /* Warna latar belakang */
+}
+
+/* Mengatur tampilan kontrol carousel saat dihover */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: #1d1e72; /* Warna latar belakang saat dihover */
+}
+
+/* Transisi pada elemen dengan kelas 'carousel-caption' saat dihover */
+.carousel-caption:hover {
+  background-color: rgba(0, 0, 0, 0.7); /* Warna latar belakang dengan transparansi */
+  transition: background-color 0.3s ease; /* Transisi */
+}
+
+/* Mengatur tampilan elemen dengan kelas 'social-icons' */
+.social-icons {
+  display: flex; /* Tampilkan dalam flexbox */
+  justify-content: center; /* Posisi menjadi tengah */
+  margin-top: 20px; /* Margin atas */
+  margin-right: 10px; /* Margin kanan */
+}
+
+/* Mengatur tampilan anchor di dalam elemen dengan kelas 'social-icons' */
+.social-icons a {
+  margin: 0 20px; /* Margin kiri dan kanan */
+  font-size: 40px; /* Ukuran font */
+  margin-right: 10px; /* Margin kanan */
+}
+
+/* Mengatur tampilan footer */
+footer {
+  background-color: #020222; /* Warna latar belakang */
+  color: white; /* Warna teks */
+  padding-bottom: 1rem; /* Padding bawah */
+}
